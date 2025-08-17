@@ -13,6 +13,7 @@ This simple HTML-based CV website showcases my professional background, educatio
 - **Purpose**: First step in learning web development fundamentals
 - **Status**: Completed ✅
 - **Live URL**: https://esmerlyng.github.io/Html_CV_Project/
+- **Project Guide**: [roadmap.sh Single Page CV Project](https://roadmap.sh/projects/single-page-cv)
 
 ## What I Learned
 Through building this project, I gained hands-on experience with:
@@ -100,6 +101,8 @@ This project is deployed using GitHub Pages, making it accessible to anyone with
 
 ## My Journey
 This project marks the beginning of my path to becoming a full stack developer. Starting with HTML fundamentals, I'm building the knowledge and skills needed to create more complex web applications in the future.
+
+I followed the structured learning path from [roadmap.sh's Single Page CV project](https://roadmap.sh/projects/single-page-cv), which provided clear guidelines and requirements for building a professional CV using only HTML. This project helped me understand the importance of semantic markup and proper document structure.
 
 ## Next Steps
 - Add CSS styling for better visual presentation

@@ -2,6 +2,22 @@
     width: 50%;
     margin-left: auto;
 } */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cv{
+    width: 60%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
 
 .introduction h1{
     font-size: 30px;

@@ -10,20 +10,20 @@
         <title>Esmerlyn Garabito CV</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <section id="Name, Role, Address">
+    <div class="cv">
+        <section class="introduction">
             <br>
             <hr>
 
-            <h1 id="name"><font size="6">Esmerlyn Garabito</font></h1>
+            <h1>Esmerlyn Garabito</h1>
 
-            <h4 id="role">Junior full stack developer</h3>
+            <h4>Junior full stack developer</h3>
 
                 <p>
                 1551 Shakespeare Ave<br>
@@ -33,24 +33,21 @@
                 </p>
         </section>
 
-        <section id="skills">
-            <p>
-                <font size="3">
+        <section>
+            <p class="section-title">
                     <b>
                         skills
                     </b>
-                    <hr>
-                </font>
-    
-                <font size="">Python, Github</font>
-            <p>
-            
+            </p>
+            <p class="skills">
+                Python, Html, CSS, Github
+            </p>
         </section>
 
         <section>
-            <h4>Education</h4>
-            <hr>
-            <p id="college">
+            <h4 class="section-title">Education</h4>
+            
+            <p class="college">
                 <b>
                     <font size="4">
                         Pace University - Bachelors
@@ -61,24 +58,55 @@
                 <br>
                 <br>
             </p>
-            <p id="Training progam">
+            <p class="training-program">
                 <font size="4"><b>YearUp United</b></font>
             <br>
             <i><font size="3"><b>September 2024 - March 2025</b></font></i>
             <br>
-            A seven-month program where I have developed strong technical and professional<br> 
-            skillsets through hands-on training and project experience. My expertise includes programming<br>
-            in Java, Python, and SQL as well as web development using HTML, CSS, and JavaScript. I am <br>
-            proficient in data visualization and analysis tools such as Tableau, and Microsoft Excel, enabling me <br>
-            to analyze and present complex data effectively. Additionally, I completed a extensive training <br>
-            program focused on business professionalism, communication, and technical skills. This experience <br>
-            honed my abilities in backend development, version control using GitHub and CI/CD processes, and <br>
+            A seven-month program where I have developed strong technical and professional
+            skillsets through hands-on training and project experience. My expertise includes programming
+            in Java, Python, and SQL as well as web development using HTML, CSS, and JavaScript. I am 
+            proficient in data visualization and analysis tools such as Tableau, and Microsoft Excel, enabling me
+            to analyze and present complex data effectively. Additionally, I completed a extensive training
+            program focused on business professionalism, communication, and technical skills. This experience
+            honed my abilities in backend development, version control using GitHub and CI/CD processes, and
             solving real-world problems collaboratively.
             </p>
         </section>
-        <section id="experience">
-            <p><font size="3"><b>Experience</b></font></p>
-            <hr>
+        <section>
+            <p class="section-title"><font size="3"><b>Experience</b></font></p>
+            <p><font size="">
+                <b>
+                    ALTAGRACIA FAITH AND JUSTICE WORKS, NEWYORK - WORDPRESS DEVELOPER (INTERN)
+                </b></font><br>
+
+                Jul. 2022 - Aug 2023 
+
+            </p>
+            <p>
+                <ul name="altagracia">
+                    <li>
+                        Maintained and enhanced the organization’s WordPress website, ensuring smooth performance and uptime.
+                    </li>
+
+                    <li>
+                        Implemented SEO best practices, boosting search visibility and improving site ranking across target keywords.
+                    </li>
+            
+                    <li>
+                        Strengthened site security by integrating Google reCAPTCHA, reducing spam submissions from 500+ per day to fewer
+                        than 1 per month.
+                    </li>
+
+                    <li>
+                        Collaborated with staff to add new features and optimize content, improving site usability and engagement. Delivered
+                        weekly performance reports and actionable data insights. 
+                    </li>
+                </ul>
+            </p>
+        </section>
+        <section>
+            <p class="section-title"><font size="3"><b>Experience</b></font></p>
             <p><font size="">
                 <b>
                     MAXX POTENTIAL, REMOTE - TEAM LEAD & LEAD DATA ANALYST (INTERN)
@@ -115,15 +143,12 @@
                 </ul>
             </p>
         </section>
-        <section id="social links">
-            <footer>
-                <p id="links">
-                    <a href="https://www.linkedin.com/in/esmerlyn-garabito" target="_blank">LinkedIn</a> | 
-                    <a href="https://github.com/EsmerlynG" target="_blank">GitHub</a>
-                </p>
-                
-            </footer>
-
-        </section>
+        <footer class="social-links">
+            <p>
+                <a href="https://www.linkedin.com/in/esmerlyn-garabito" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/EsmerlynG" target="_blank">GitHub</a>
+            </p>    
+        </footer>
+    </div>
     </body>
 </html>
